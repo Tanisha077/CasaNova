@@ -6,7 +6,7 @@ public class Splash extends JFrame {
     public Splash() {
 
         // Window Settings
-        setTitle("CasaNova");
+        setTitle("VillaNest");
         setSize(1000, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -19,7 +19,7 @@ public class Splash extends JFrame {
         // CasaNova Title
         // ==========================
 
-        JLabel title = new JLabel("CasaNova");
+        JLabel title = new JLabel("VillaNest");
         title.setFont(new Font("Segoe UI", Font.BOLD, 50));
         title.setForeground(new Color(219, 112, 147));
         title.setBounds(330, 120, 400, 60);
