@@ -16,7 +16,7 @@ public class Home extends JFrame implements ActionListener {
 
     public Home() {
 
-        setTitle("CasaNova");
+        setTitle("VillaNest");
         setSize(1200,700);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -32,7 +32,7 @@ public class Home extends JFrame implements ActionListener {
         navbar.setBackground(new Color(219,112,147));
         add(navbar);
 
-        JLabel title = new JLabel("CasaNova");
+        JLabel title = new JLabel("VillaNest");
         title.setFont(new Font("Segoe UI",Font.BOLD,30));
         title.setForeground(Color.WHITE);
         title.setBounds(30,18,250,40);
@@ -120,7 +120,7 @@ public class Home extends JFrame implements ActionListener {
 
             JOptionPane.showMessageDialog(this,
                     "Contact Us\n\n" +
-                            "Email : support@casanova.com\n" +
+                            "Email : support@VillaNest.com\n" +
                             "Phone : +91 9877099415");
 
         });
