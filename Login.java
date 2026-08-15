@@ -12,7 +12,7 @@ public class Login extends JFrame implements ActionListener {
     public Login() {
 
         // Window Settings
-        setTitle("CasaNova - Login");
+        setTitle("VillaNest - Login");
         setSize(1000, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,7 +22,7 @@ public class Login extends JFrame implements ActionListener {
         getContentPane().setBackground(new Color(255, 245, 248));
 
         // Heading
-        heading = new JLabel("Welcome to CasaNova");
+        heading = new JLabel("Welcome to VillaNest");
         heading.setFont(new Font("Segoe UI", Font.BOLD, 36));
         heading.setForeground(new Color(219, 112, 147));
         heading.setBounds(260, 40, 500, 50);
