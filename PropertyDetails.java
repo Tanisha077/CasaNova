@@ -7,7 +7,7 @@ public class PropertyDetails extends JFrame {
 
         // ================= WINDOW =================
 
-        setTitle("CasaNova - Property Details");
+        setTitle("VillaNest - Property Details");
         setSize(1000, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -28,7 +28,7 @@ public class PropertyDetails extends JFrame {
         );
         add(navbar);
 
-        JLabel title = new JLabel("CasaNova");
+        JLabel title = new JLabel("VillaNest");
         title.setFont(
                 new Font("Segoe UI", Font.BOLD, 30)
         );
