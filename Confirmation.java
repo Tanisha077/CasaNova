@@ -6,7 +6,7 @@ public class Confirmation extends JFrame {
     public Confirmation(String villaName) {
 
         // Window
-        setTitle("CasaNova - Booking Confirmation");
+        setTitle("VillaNest - Booking Confirmation");
         setSize(700, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -26,7 +26,7 @@ public class Confirmation extends JFrame {
         header.setLayout(null);
         add(header);
 
-        JLabel title = new JLabel("CasaNova");
+        JLabel title = new JLabel("VillaNest");
         title.setFont(
                 new Font("Segoe UI", Font.BOLD, 28)
         );
@@ -64,7 +64,7 @@ public class Confirmation extends JFrame {
 
         JLabel thanks =
                 new JLabel(
-                        "Thank you for choosing CasaNova."
+                        "Thank you for choosing VillaNest."
                 );
 
         thanks.setFont(
