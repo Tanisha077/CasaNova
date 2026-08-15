@@ -8,7 +8,7 @@ public class Booking extends JFrame {
 
         // ================= WINDOW =================
 
-        setTitle("CasaNova - Booking");
+        setTitle("VillaNest - Booking");
         setSize(600, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
