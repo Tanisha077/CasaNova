@@ -12,7 +12,7 @@ public class Conn {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             String url =
-                    "jdbc:mysql://localhost:3306/casanova"
+                    "jdbc:mysql://localhost:3306/VillaNest"
                             + "?useSSL=false"
                             + "&allowPublicKeyRetrieval=true"
                             + "&serverTimezone=UTC";
