@@ -16,7 +16,7 @@ public class Splash extends JFrame {
         getContentPane().setBackground(new Color(255, 245, 248));
 
         // ==========================
-        // CasaNova Title
+        // VillaNest Title
         // ==========================
 
         JLabel title = new JLabel("VillaNest");
